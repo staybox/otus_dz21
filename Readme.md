@@ -38,7 +38,7 @@ testClient2 <-> testServer2
 
 ![Image 3](https://raw.githubusercontent.com/staybox/otus_dz21/master/screenshots/showvlan.png)
 
-- bond из двух интерфейсов на машине ```centralRouter```, параметры, которые использованы в конфигурационном файле интерфейса bond0:
+- bond из двух интерфейсов на машине ```centralRouter``` и ```inetRouter```, параметры, которые использованы в конфигурационном файле интерфейса bond0:
 
     - ```mode=1``` - определяет политику поведения объединенных интерфейсов. 1 - это политика активный-резервный.
 
