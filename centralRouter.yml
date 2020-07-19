@@ -3,10 +3,7 @@
   hosts: centralRouter
   become: yes
   
-
-
-    
-    
+  
   tasks:
     - name: Add epel-release repo
       yum:
@@ -31,9 +28,6 @@
         sysctl_set: yes
         state: present
         reload: yes
-
-
-
 
 
     - name: copy config

@@ -4,9 +4,6 @@
   become: yes
   
 
-
-    
-    
   tasks:
     - name: Add epel-release repo
       yum:
@@ -18,8 +15,6 @@
         dest: /etc/yum.repos.d/epel.repo
         insertafter: 'enabled=1'
         line: 'sslverify=0'
-
-
 
 
     - name: copy config

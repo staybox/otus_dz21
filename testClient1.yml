@@ -4,9 +4,6 @@
   become: yes
   
 
-
-    
-    
   tasks:
     - name: Add epel-release repo
       yum:
